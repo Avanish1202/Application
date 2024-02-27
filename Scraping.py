@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-from bs4 import BeautifulSoup
+import BeautifulSoup
 import pandas as pd
 
 def scrape_data(url, table_index):
